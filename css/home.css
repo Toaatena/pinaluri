@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/button.png);
+}
+header{
+    padding: 30px;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    position: fixed; top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+    header h1{
+    float: left;
+    margin-right: 300px;
+    
+    }
+ header h1 a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin-top: -15px;
+
+}
+header li{
+    float: left;
+    margin-right: 50px;
+    
+}
+header li a{
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+.form{
+    color: white;
+}
+  
+    .facebook{
+        width: 300px;
+        text-align: 15px;
+        background-color: blue;
+        transform: rotate(-90deg);
+        position: fixed;
+        top: 180px;
+        right: -120px;
+    }
+    
+    .facebook a{
+        color: aliceblue;
+        letter-spacing: 10px;
+        font-weight: 900;
+    }
+ 
+    .div text{
+    color: white;
+    }
+    div text h2{
+        width: 100px;
+        height: 10px;
+        color: white;
+        margin-bottom: -40px;
+    }
+
+button{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: -10px;
+    background-color: black;
+    color: white;
+
+}
+
+.kalata img{
+ width: 55px;
+ height: 55px;
+ float: right;
+ margin: -15px 10px;
+}
+.fa img{
+    width: 55px;
+    height: 55px;
+    float: right;
+    margin: -15px 20px;
+   
+}
+div img{
+    margin: 100px;
+}
+.video{
+    margin: -50px 350px;
+}
+a img{
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top:-450px;
+}
